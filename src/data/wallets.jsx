@@ -1,6 +1,7 @@
 import rainbow from "./assets/Rainbow.png";
 import BitKeep from "./assets/BitKeep.png";
 import MetaMask from "./assets/MetaMask.png";
+import walletconnect from "./assets/walletconnect.png";
 import Coinomi from "./assets/Coinomi.png";
 import Infinityy from "./assets/Infinityy.png";
 import solana from "./assets/solana.png";
@@ -60,7 +61,7 @@ const wallets = [
   { id: 1, image: SafePal, name: "SafePal" },
   { id: 2, image: coinbase, name: "Coinbase" },
   { id: 3, image: rainbow, name: "Rainbow" },
-  { id: 4, image: rainbow, name: "WalletConnect" },
+  { id: 4, image: walletconnect, name: "WalletConnect" },
   { id: 5, image: TrustWallet, name: "Trust Wallet" },
   { id: 6, image: MetaMask, name: "MetaMask" },
   { id: 7, image: solana, name: "Solana" },
