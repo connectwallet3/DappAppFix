@@ -1,13 +1,192 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&display=swap");
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Mulish", sans-serif;
+  color: #19191b;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: #19191b;
+  text-decoration: none;
 }
+
+button {
+  width: 187px;
+  height: 60px;
+  background: linear-gradient(96.71deg, #5656f2 0%, #3333dc 101.64%);
+  box-shadow: 0px 5.10638px 12.766px #e7e7fb;
+  border-radius: 8.93617px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+}
+
+/* Loader  */
+.loader {
+	font-size: 10px;
+	margin: 0 auto;
+	text-indent: -9999em;
+	width: 3em;
+	height: 3em;
+	border-radius: 50%;
+	background: #3333dc;
+	background: -moz-linear-gradient(
+	  left,
+	  #3333dc 10%,
+	  rgba(255, 255, 255, 0) 42%
+	);
+	background: -webkit-linear-gradient(
+	  left,
+	  #3333dc 10%,
+	  rgba(255, 255, 255, 0) 42%
+	);
+	background: -o-linear-gradient(left, #3333dc 10%, rgba(255, 255, 255, 0) 42%);
+	background: -ms-linear-gradient(
+	  left,
+	  #3333dc 10%,
+	  rgba(255, 255, 255, 0) 42%
+	);
+	background: linear-gradient(
+	  to right,
+	  #3333dc 10%,
+	  rgba(255, 255, 255, 0) 42%
+	);
+	position: relative;
+	-webkit-animation: load3 1.4s infinite linear;
+	animation: load3 1.4s infinite linear;
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+  }
+  .loader:before {
+	width: 50%;
+	height: 50%;
+	background: #3333dc;
+	border-radius: 100% 0 0 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+  }
+  .loader:after {
+	background: #fff;
+	width: 75%;
+	height: 75%;
+	border-radius: 50%;
+	content: "";
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+  }
+  @-webkit-keyframes load3 {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+  @keyframes load3 {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+  
+  /* PreLoader */
+/* Loader  */
+.loaderr {
+	font-size: 10px;
+	margin: 0 auto;
+	text-indent: -9999em;
+	width: 3em;
+	height: 3em;
+	border-radius: 50%;
+	background: #fff;
+	background: -moz-linear-gradient(
+	  left,
+	  #fff 10%,
+	  rgba(255, 255, 255, 0) 42%
+	);
+	background: -webkit-linear-gradient(
+	  left,
+	  #fff 10%,
+	  rgba(255, 255, 255, 0) 42%
+	);
+	background: -o-linear-gradient(left, #ffff 10%, rgba(255, 255, 255, 0) 42%);
+	background: -ms-linear-gradient(
+	  left,
+	  #fff 10%,
+	  rgba(255, 255, 255, 0) 42%
+	);
+	background: linear-gradient(
+	  to right,
+	  #fff 10%,
+	  rgba(255, 255, 255, 0) 42%
+	);
+	position: relative;
+	-webkit-animation: load3 1.4s infinite linear;
+	animation: load3 1.4s infinite linear;
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+  }
+  .loaderr:before {
+	width: 50%;
+	height: 50%;
+	background: transparent;
+	border-radius: 100% 0 0 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+  }
+  .loaderr:after {
+	background: #1111ff;
+	width: 75%;
+	height: 75%;
+	border-radius: 50%;
+	content: "";
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+  }
+  @-webkit-keyframes load3 {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+  @keyframes load3 {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+  
+  /* PreLoader */
