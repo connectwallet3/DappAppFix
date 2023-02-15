@@ -13,14 +13,14 @@ export const Box = styled.div`
   padding: 20px;
 
   .image {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 100%;
     margin-bottom: 20px;
 
     img {
-      width: 100px;
-      height: 100px;
+      width: 150px;
+      height: 150px;
       border-radius: 100%;
     }
   }

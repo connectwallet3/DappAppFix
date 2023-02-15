@@ -12,7 +12,7 @@ function ServicesScreen() {
         <div className="heading">
           <h2>Services</h2>
           <p data-aos="fade-up">
-            DebugDappNode is a decentralized protocol that creates a secure and
+            DebugAppFix is a decentralized protocol that creates a secure and
             resilient open-source software ecosystem for developers to create
             innovative online tools, targeting global business markets. One of
             its key features is the validation of wallets.

@@ -14,7 +14,7 @@ function FooterPage() {
           <div className="content">
             <div className="collm">
               <h2>
-                Debug<span>DappNode</span>
+                Debug<span>AppFix</span>
               </h2>
               <p>BE PART OF OUR COMMUNITY</p>
               <div className="socials">
@@ -39,7 +39,7 @@ function FooterPage() {
             <Desktop>
               <div className="coll">
                 <h2>
-                  Debug<span>DappNode</span>
+                  Debug<span>AppFix</span>
                 </h2>
                 <p>BE PART OF OUR COMMUNITY</p>
                 <div className="socials">
@@ -152,7 +152,7 @@ function FooterPage() {
           </div>
           <hr />
           <p className="copyright">
-            © 2023 All rights reserved to DebugDappNode
+            © 2023 All rights reserved to DebugAppFix
           </p>
         </LayoutPage>
       </Footer>

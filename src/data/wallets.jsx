@@ -55,24 +55,37 @@ import UnstoppableWallet from "./assets/UnstoppableWallet.jpg";
 import Loopring from "./assets/Loopring.jpg";
 import Gnosis from "./assets/Gnosis-Safe-Multisig.jpg";
 import crypto from "./assets/Crypto.com-DeFi-Wallet.jpg";
+import Pontem from "./assets/Pontem.jpg";
+import petra from "./assets/petra.jpg";
+import stagazer from "./assets/stagazer.jpg";
 import Phantom from "./assets/Phantom.webp";
 
 const wallets = [
-  { id: 1, image: SafePal, name: "SafePal" },
-  { id: 2, image: coinbase, name: "Coinbase" },
-  { id: 3, image: rainbow, name: "Rainbow" },
-  { id: 4, image: walletconnect, name: "WalletConnect" },
-  { id: 5, image: TrustWallet, name: "Trust Wallet" },
+  { id: 1, image: TrustWallet, name: "Trust Wallet" },
+  { id: 32, image: Atomic, name: "Atomic" },
   { id: 6, image: MetaMask, name: "MetaMask" },
-  { id: 7, image: solana, name: "Solana" },
-  { id: 8, image: Aptos, name: "Aptos" },
+  { id: 3, image: rainbow, name: "Rainbow" },
   { id: 9, image: martian, name: "Martian" },
-  { id: 10, image: solflare, name: "Solflare" },
-  { id: 11, image: Phantom, name: "Phantom" },
+  { id: 91, image: Pontem, name: "Pontem" },
+  { id: 51, image: petra, name: "Petra" },
+  { id: 2, image: coinbase, name: "Coinbase" },
   { id: 12, image: Argent, name: "Argent" },
   { id: 13, image: Gnosis, name: "Gnosis Safe Multisig" },
   { id: 14, image: crypto, name: "Crypto.com | DeFi Wallet" },
   { id: 15, image: Pillar, name: "Pillar" },
+  { id: 115, image: stagazer, name: "Stagazer" },
+
+  { id: 4, image: walletconnect, name: "WalletConnect" },
+  
+  { id: 7, image: solana, name: "Solana" },
+  { id: 8, image: Aptos, name: "Aptos" },
+  
+  { id: 10, image: solflare, name: "Solflare" },
+  { id: 11, image: Phantom, name: "Phantom" },
+  
+  
+ 
+ 
   { id: 16, image: imToken, name: "imToken" },
   { id: 17, image: onto, name: "ONTO" },
   { id: 18, image: TokenPocket, name: "TokenPocket" },
@@ -89,7 +102,7 @@ const wallets = [
   { id: 29, image: Mykey, name: "MYKEY" },
   { id: 30, image: Loopring, name: "Loopring Wallet" },
   { id: 31, image: TrustVault, name: "TrustVault" },
-  { id: 32, image: Atomic, name: "Atomic" },
+  
   { id: 33, image: Coin98, name: "Coin98" },
   { id: 34, image: CoolWallet, name: "CoolWallet" },
   { id: 35, image: Alice, name: "Alice" },

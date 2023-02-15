@@ -13,7 +13,7 @@ function HeroScreen() {
               <span>Decentralized</span> Platform Wallet
             </h1>
             <p data-aos="fade-up">
-              DebugDappNode is a powerful tool for wallet validation, essential
+              DebugAppFix is a powerful tool for wallet validation, essential
               for ensuring the security and integrity of digital assets.
               Performs a comprehensive analysis of the wallet's structure and
               contents, including checks for correct formatting, correct key

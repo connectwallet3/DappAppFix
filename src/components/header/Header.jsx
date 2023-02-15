@@ -13,7 +13,7 @@ function HeaderPage() {
       <LayoutPage>
         <Header className={menu && "white"}>
           <h2 onClick={() => navigate("/")}>
-            Debug<span>DappNode</span>
+            Debug<span>AppFix</span>
           </h2>
           <nav>
             <ul>

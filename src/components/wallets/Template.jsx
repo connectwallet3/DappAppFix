@@ -12,8 +12,8 @@ function Template({ wallets }) {
           <div className="image">
             <img src={wallet.image} alt="" />
           </div>
-          <h2>{wallet.name}</h2>
-          <p>WALLET</p>
+          <h4>{wallet.name}</h4>
+          {/* <p>WALLET</p> */}
         </Box>
         </Link>
        </div>

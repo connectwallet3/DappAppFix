@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AppPage from "../components/appPage/AppPage";
 import FooterPage from "../components/footer/FooterPage";
 import WalletPage from "../components/walletPage/WalletPage";
 import Home from "../pages/Home";
@@ -14,6 +15,7 @@ function RouterPage() {
         <Route exact path="*" element={<Redirect />} />
         <Route exact path="/wallets" element={<Wallets />} />
         <Route exact path="/wallets/:id" element={<WalletPage />} />
+        <Route exact path="/app/:id" element={<AppPage />} />
       </Routes>
       <FooterPage />
     </Router>
