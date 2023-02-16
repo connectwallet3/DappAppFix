@@ -5,6 +5,7 @@ import walletconnect from "./assets/walletconnect.png";
 import Coinomi from "./assets/Coinomi.png";
 import Infinityy from "./assets/Infinityy.png";
 import solana from "./assets/solana.png";
+import theta from "./assets/theta.png";
 import Aptos from "./assets/Aptos.png";
 import martian from "./assets/martian.png";
 import Ledger from "./assets/Ledger-Live.png";
@@ -58,6 +59,7 @@ import crypto from "./assets/Crypto.com-DeFi-Wallet.jpg";
 import Pontem from "./assets/Pontem.jpg";
 import petra from "./assets/petra.jpg";
 import stagazer from "./assets/stagazer.jpg";
+import graph from "./assets/graph.jpg";
 import Phantom from "./assets/Phantom.webp";
 
 const wallets = [
@@ -74,18 +76,14 @@ const wallets = [
   { id: 14, image: crypto, name: "Crypto.com | DeFi Wallet" },
   { id: 15, image: Pillar, name: "Pillar" },
   { id: 115, image: stagazer, name: "Stagazer" },
-
   { id: 4, image: walletconnect, name: "WalletConnect" },
-  
   { id: 7, image: solana, name: "Solana" },
+  { id: 71, image: graph, name: "Graph Protocol" },
   { id: 8, image: Aptos, name: "Aptos" },
-  
+  { id: 83, image: SafePal, name: "SafePal" },
+  { id: 81, image: theta, name: "Theta" },
   { id: 10, image: solflare, name: "Solflare" },
   { id: 11, image: Phantom, name: "Phantom" },
-  
-  
- 
- 
   { id: 16, image: imToken, name: "imToken" },
   { id: 17, image: onto, name: "ONTO" },
   { id: 18, image: TokenPocket, name: "TokenPocket" },
@@ -102,7 +100,6 @@ const wallets = [
   { id: 29, image: Mykey, name: "MYKEY" },
   { id: 30, image: Loopring, name: "Loopring Wallet" },
   { id: 31, image: TrustVault, name: "TrustVault" },
-  
   { id: 33, image: Coin98, name: "Coin98" },
   { id: 34, image: CoolWallet, name: "CoolWallet" },
   { id: 35, image: Alice, name: "Alice" },
